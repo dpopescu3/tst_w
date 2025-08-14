@@ -39,15 +39,6 @@ long divisorSum2(long n) {
     }
     return total;
 }
-long divisorSum3(long n) {
-    long total = 0;
-    for (long divisor = 1; divisor < n; divisor++) {
-        if (n % divisor == 0) {
-            total += divisor;
-        }
-    }
-    return total;
-}
 long divisorSum4(long n) {
     long total = 0;
     for (long divisor = 1; divisor < n; divisor++) {
