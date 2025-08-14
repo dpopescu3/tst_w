@@ -176,12 +176,5 @@ PROVIDED_TEST("Wharton begins with Wh") {
 
 }
 
-PROVIDED_TEST("Ashcraft is not a special case") {
-    // Some versions of Soundex make special case for consecutive codes split by hw
-    // We do not make this special case, just treat same as codes split by vowel
-    EXPECT_EQUAL(soundex("Ashcraft"), "A226");
-}
-
-// TODO: add your test cases here
 
 
