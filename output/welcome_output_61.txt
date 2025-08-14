@@ -1,0 +1,24 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20250814152143
+Username: PINCS-PC\PinCS
+RunAs User: PINCS-PC\PinCS
+Configuration Name: 
+Machine: PINCS-PC (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -NoExit -File C:\Users\PinCS\AppData\Local\Temp\run_autocommit_bf32d3b2389c473286b512def867d01c.ps1
+Process ID: 12568
+PSVersion: 5.1.26100.4768
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.4768
+BuildVersion: 10.0.26100.4768
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Launching tests... (this window will stay open after the app exits)
+Executable: C:\Users\PinCS\Downloads\CS106B-A1-main\CS106B-A1-main\CppLegs.exe
+
+[auto_commit] App exited with code .
+
+Press Enter to finish and close this window...
