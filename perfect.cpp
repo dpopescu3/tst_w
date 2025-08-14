@@ -75,6 +75,16 @@ long divisorSum21(long n) {
     }
     return total;
 }
+
+long divisorSum212(long n) {
+    long total = 0;
+    for (long divisor = 1; divisor < n; divisor++) {
+        if (n % divisor == 0) {
+            total += divisor;
+        }
+    }
+    return total;
+}
 long divisorSum32(long n) {
     long total = 0;
     for (long divisor = 1; divisor < n; divisor++) {
@@ -111,7 +121,7 @@ long divisorSum65(long n) {
     }
     return total;
 }
-long divisorSum212(long n) {
+long divisorSum215(long n) {
     long total = 0;
     for (long divisor = 1; divisor < n; divisor++) {
         if (n % divisor == 0) {
