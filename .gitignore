@@ -1,0 +1,6 @@
+﻿# Recommended ignores for Qt student projects
+/build/
+*.exe
+*.app/
+.qtc_clangd/
+output/
