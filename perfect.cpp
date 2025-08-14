@@ -94,51 +94,6 @@ long divisorSum32(long n) {
     }
     return total;
 }
-long divisorSum41(long n) {
-    long total = 0;
-    for (long divisor = 1; divisor < n; divisor++) {
-        if (n % divisor == 0) {
-            total += divisor;
-        }
-    }
-    return total;
-}
-long divisorSum54(long n) {
-    long total = 0;
-    for (long divisor = 1; divisor < n; divisor++) {
-        if (n % divisor == 0) {
-            total += divisor;
-        }
-    }
-    return total;
-}
-long divisorSum65(long n) {
-    long total = 0;
-    for (long divisor = 1; divisor < n; divisor++) {
-        if (n % divisor == 0) {
-            total += divisor;
-        }
-    }
-    return total;
-}
-long divisorSum215(long n) {
-    long total = 0;
-    for (long divisor = 1; divisor < n; divisor++) {
-        if (n % divisor == 0) {
-            total += divisor;
-        }
-    }
-    return total;
-}
-long divisorSum323(long n) {
-    long total = 0;
-    for (long divisor = 1; divisor < n; divisor++) {
-        if (n % divisor == 0) {
-            total += divisor;
-        }
-    }
-    return total;
-}
 long divisorSum4344(long n) {
     long total = 0;
     for (long divisor = 1; divisor < n; divisor++) {
